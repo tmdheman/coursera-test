@@ -1,0 +1,113 @@
+
+/*...................Header.......................*/
+#header-nav {
+  background-color: #DAA520;
+  border: 0;
+}
+div h1 {
+  text-decoration-color: #6B8E23;
+  font-size:1.5em;
+  text-transform:uppercase;
+  font-weight:bold;
+  margin-top:0;
+  margin-bottom:0;
+  line-height: .75;
+
+ }
+ .navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #2F4F4F;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+}
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  
+}
+#nav-list a:hover {
+  background: #DCDCDC;
+}
+#nav-list a {
+  font-size: 2em;
+
+}
+.navbar-brand {
+  padding-top: 30px;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 0px;
+    height: 70px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 25px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a  { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+}
+ /*..................Header Ends........*/
+
+
+section{
+   
+    background-color:#ADD8E6; 
+    width: 100%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica; 
+    position: relative;
+
+
+}
+h1,h2{
+  text-align: center;
+}
+h1{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.row{
+  margin-top: 15px;
+}
+#text{
+  padding: 10px;
+  border: none;
+
+}
